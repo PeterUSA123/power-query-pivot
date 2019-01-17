@@ -1,7 +1,7 @@
 # Tìm hiểu về hàm trong DAX
 
-> Hàm FILTER (lọc dữ liệu từ bảng với điều kiện)
-FILTER(<table>,<filter>)
+> Hàm FILTER (lọc dữ liệu từ bảng với điều kiện) \n
+`FILTER(<table>,<filter>)'
 Count of sales orders over 100 = COUNTROWS(FILTER('Sales', 'Sales'[Sales] > 100))
 
 > Hàm ALL
