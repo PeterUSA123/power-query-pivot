@@ -1,4 +1,5 @@
 # Tìm hiểu về hàm trong DAX
+see[powerDAX](https://powerdax.com/important-dax-concept/)
 
 > Hàm FILTER (lọc dữ liệu từ bảng với điều kiện)
 `FILTER(<table>,<filter>)`
@@ -18,7 +19,13 @@ Count of sales orders in the `US = COUNTROWS(FILTER(ALL('Sales'), RELATED('Sales
 
 > CALCULATE 
 `CALCULATE(<expression>, <filter1>,<filter2>…)`
-Sum of sales all countries = CALCULATE(SUM('Sales'[Sales]),ALL('SalesGeography'))
+`Sum of sales all countries = CALCULATE(SUM('Sales'[Sales]),ALL('SalesGeography'))`
 
-Để viết biểu thức ta dùng cấu trúc
-Tên_cột:=<biểu thức>
+# Để viết biểu thức ta dùng cấu trúc
+`Tên_cột:=<biểu thức>`
+
+# Tạo cột mới với biểu thức
+[Full Name] = [Last Name] & “, “ & [First Name]
+![DAX1](https://powerdax.com/wp-content/uploads/2015/05/Calculated-Column.png)
+
+
