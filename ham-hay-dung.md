@@ -1,7 +1,9 @@
 # DATE AND TIME FUNCTIONS
-Function	Description
+
 DATE(<year>, <month>, <day>)	Returns the specified date in datetime format.
+ 
 DATEVALUE(date_text)	Converts a date in the form of text to a date in datetime format
+
 DAY(<date>)	Returns the day of the month, a number from 1 to 31.
 EDATE(<start_date>, <months>)	Returns the date that is the indicated number of months before or after the start date. Use EDATE to calculate maturity dates or due dates that fall on the same day of the month as the date of issue
 EOMONTH(<start_date>, <months>)	Returns the date in datetime format of the last day of the month, before or after a specified number of months. Use EOMONTH to calculate maturity dates or due dates that fall on the last day of the month.
