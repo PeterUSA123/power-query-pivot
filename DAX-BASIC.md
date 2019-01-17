@@ -1,5 +1,6 @@
 # Tìm hiểu về hàm trong DAX
-see[powerDAX](https://powerdax.com/important-dax-concept/)
+see [powerDAX](https://powerdax.com/important-dax-concept/)
+Download [Workbook Size Optimizer](https://www.microsoft.com/en-us/download/details.aspx?id=38793)
 
 > Hàm FILTER (lọc dữ liệu từ bảng với điều kiện)
 `FILTER(<table>,<filter>)`
